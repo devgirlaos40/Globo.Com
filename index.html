@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML + CSS</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="cabecalho">
+      <div class="cabecalho__logo">
+        <img src="img/logo-globo.png" alt="logo da globo.com" />
+      </div>
+      <nav>
+        <ul class="lista_menu">
+          <li class="g1">g1</li>
+          <li id="globo">o globo</li>
+          <li id="valor">valor</li>
+          <li class="ge">ge</li>
+          <li id="cartola">cartola</li>
+          <li id="globoplay">globoplay</li>
+          <li id="dropz">dropz</li>
+          <li class="gshow">gshow</li>
+          <li id="quem">quem</li>
+          <li id="receitas">receitas</li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="blocos bloco-esquerda">
+        <div class="frame_horizontal">
+          <h1>Show do Blink-182 é eleito o melhor do Lollapalooza deste ano</h1>
+          <p class="legenda-destaque">
+            Trio se apresentou pela primeira vez no Brasil na sexta-feira
+          </p>
+          <p class="legenda-destaque">
+            Segundo enquete, Blink-182 foi eleito o melhor show com 48,81% dos
+            votos
+          </p>
+        </div>
+        <div>
+          <div class="frame_horizontal">
+            <ul class="bloco-esquerda__noticias">
+              <li>
+                <img
+                  src="img/noticias/destaques/lama.png"
+                  alt="foto do lollapalooza cheio de lama"
+                />
+                <legend class="g1">Lollapalooza virou Lama</legend>
+                <p class="bloco-esquerda__noticias_titulo">Vídeo viraliza com escorregões na lama que dominou evento</p>
+                <p class="bloco-esquerda__noticias_subtitulo">Durante os 3 dias de evento, público enfrentou um lamaçal</p>
+              </li>
+              <li>
+                <img
+                  src="img/noticias/destaques/pegou-fogo.png"
+                  alt="foto de prédio pegando fogo"
+                />
+                <legend class="g1">Pegou fogo</legend>
+                <p  class="bloco-esquerda__noticias_titulo">Incêndio destrói <br>prédio da antiga <br> Bolsa de Valores</p>
+                <p class="bloco-esquerda__noticias_subtitulo">Incêndio destruiu antigo prédio <br>da bolsa na Dinamarca</p>
+              </li>
+              <li>
+                <img
+                  src="img/noticias/destaques/subway.png"
+                  alt="foto do do balcão de um subway"
+                />
+                <legend class="g1">Lanche azedou</legend>
+                <p  class="bloco-esquerda__noticias_titulo" >Controladora do Subway pede recuperação judicial</p>
+                <p class="bloco-esquerda__noticias_subtitulo">A soma das dívidas ultrapassa <br>o valor de R$ 482 milhões</p>
+              </li>
+            </ul>
+          </div>
+          <div id="frame__ultimo">
+            <ul class="bloco-esquerda__noticias">
+              <li>
+                <legend class="g1">Fora de controle</legend>
+                <p class="bloco-esquerda__noticias_titulo">
+                  Brasil chegou a registrar 50 mil casos de dengue em um dia
+                </p>
+                <p class="bloco-esquerda__noticias_subtitulo">São mais de 2,3 milhões de casos e mais de 800 mortes</p>
+              </li>
+              <li>
+                <legend class="g1">O melhor do cinema</legend>
+                <p  class="bloco-esquerda__noticias_titulo">Acontece a 96ª <br>edição da premiação do Oscar</p>
+                <p class="bloco-esquerda__noticias_subtitulo">Oppenheimer é o filme favorito em diversas categorias</p>
+              </li>
+              <li>
+                <legend class="g1">Pulmão de ferro</legend>
+                <p  class="bloco-esquerda__noticias_titulo">Falece homem que viveu 70 anos em pulmão de ferro</p>
+                <p class="bloco-esquerda__noticias_subtitulo">Paul Alexandrer contraiu poliomelite aos 6 anos de idade</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="blocos bloco-direita">
+        <div class="bloco-direita__container">
+        <div id="bloco-direita__ge" class="frame_vertical">
+          <ul class="bloco-direita__noticias">
+            <li>
+              <img
+                src="img/noticias/ge/espiao-estatistico.jpeg"
+                alt="foto do técnico do Clube de Futebol Palmeiras"
+              />
+              <legend class="ge">Espião estatístico</legend>
+              <p class="bloco-direita__noticias_titulo">
+                Classificação do returno tem Palmeiras em último; <br>veja as
+                posições
+              </p>
+              <p class="bloco-direita__noticias_subtitulo">Crespo almoça com diretoria e deve se despedir no CT</p>
+            </li>
+            <li>
+              <img
+                src="img/noticias/ge/greve-segue-na-raposa.jpeg"
+                alt="Foto do diretor do Cruzeiro Esporte Clube"
+              />
+              <legend class="ge">Greve segue na Rapoza</legend>
+              <p class="bloco-direita__noticias_titulo cruzeiro">Cruzeiro não viabiliza <br>recurso para quitar <br>atrasados</p>
+            </li>
+            <li>
+              <img
+                src="img/noticias/ge/campeonato-frances.jpeg"
+                alt="foto de jogador do PSG"
+              />
+              <legend class="ge">Campeonato francês</legend>
+              <p class="bloco-direita__noticias_titulo menor">Desfalcado, PSG recebe o Angers, 4º colocado</p>
+            </li>
+          </ul>
+        </div>
+        <div id="bloco-direita__gshow" class="frame_vertical">
+          <ul class="bloco-direita__noticias">
+            <li>
+              <img
+                src="img/noticias/gshow/ferias-e-jh.jpeg"
+                alt="foto do apresentador do Jornal Hoje, César tralli"
+              />
+              <legend class="gshow">Férias e JH</legend>
+              <p class="bloco-direita__noticias_titulo">César Tralli se emociona na despedida do SP1</p>
+            </li>
+            <li>
+              <img
+                src="img/noticias/gshow/verdades-secretas-2.jpeg"
+                alt="foto de uma cena do seriado Verdades Secretas"
+              />
+              <legend class="gshow">Verdades Sceretas 2</legend>
+              <p class="bloco-direita__noticias_titulo menor">Angel cruza a passarela poderosa; reveja desfiles</p>
+              <p class="bloco-direita__noticias_subtitulo verdades-secretas">
+                Blanche terá dois relacionamentos <br><br id="br_vs">Gabriel viverá
+                sadomasoquista
+              </p>
+            </li>
+            <li>
+              <img
+                src="img/noticias/gshow/nos-tempos-do-imperador.jpeg"
+                alt="foto de uma cena da novela Nos Tempos do Imperados da TV Globo"
+              />
+              <legend class="gshow">Nos Tempos do Imperador</legend>
+              <p class="bloco-direita__noticias_titulo menor">Lota vai cair em golpe</p>
+              <p class="bloco-direita__noticias_subtitulo">Teresa toma decisão radical</p>
+            </li>
+          </ul>
+        </div>
+    </div>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>
